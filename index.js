@@ -91,26 +91,24 @@ const generateMarkdown = require("./generateMarkdown.js");
 
    ])
 
-  .then((answers) => {
-      console.log(answers);
-  })
-  
-  .catch((error) => {
-      if (error.isTtyError) {
-         console.log('prompt could not be rendered in this environment')
-      } else {
-          console.log('Something went wrong')
-      }
-  }
-);
+   .then((answers) => {
+    console.log(answers)
+    fs.writeFile(`${answers.name}.json`, JSON.stringify(answers, null, '\t'), (err,data) => {
+        if(err) {
+            console.log(err);
+        }
+        console.log("File Created!")
+        }
+    )
 
    
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
+    })

@@ -1,0 +1,14 @@
+{
+	"name": "Teresa",
+	"github": "tcampbell01",
+	"email": "teresa.j.campbell@gmail.com",
+	"project": "READme generator",
+	"description": "This is a READme generator using node.js",
+	"installation": "make sure you follow all the instructions",
+	"usage": "You should use this when your teachers tell you too",
+	"guidelines": "I don't yet know what this means",
+	"test": "I don't know what this means either",
+	"license": [
+		"MIT"
+	]
+}
