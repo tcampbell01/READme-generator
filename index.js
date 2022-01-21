@@ -4,6 +4,9 @@ const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 
+const api = require('./api.js');
+const generateMarkdown = require("./generateMarkdown.js");
+
 
 // const generateReadme = require("./generateMarkdown.js")
 // const writeFileAsync = util.promisify(fs.writeFile);
