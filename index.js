@@ -2,18 +2,17 @@
 
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 
-// const generateMarkdown = require("./generateMarkdown.js");
 
-// const createReadMe = util.promisify(writeToFile);
-// const generateReadme = require("./generateMarkdown.js")
-// const writeFileAsync = util.promisify(fs.writeFile);
+
+
 // TODO: Create an array of questions for user input
 
 
 
-   const promptUser = () => {
+   const userInput = () => {
 
    return inquirer.prompt ([
 
@@ -110,8 +109,8 @@ const inquirer = require("inquirer");
 
     {
         type: 'input',
-        name: 'guidelines',
-        message: 'Would you like to specify how people can use this project?',
+        name: 'contributing',
+        message: 'Would you like to specify how people can contribute to this project?',
         default: true
     },
 
@@ -153,7 +152,7 @@ const inquirer = require("inquirer");
 
 }
 
-promptUser();
+userInput();
 
  
 
