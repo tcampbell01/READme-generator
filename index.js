@@ -123,7 +123,7 @@ function userInput () {
         },
 
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'Please choose your license.',
             choices: [
