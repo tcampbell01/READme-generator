@@ -142,7 +142,7 @@ const inquirer = require("inquirer");
 
    .then((answers) => {
     console.log(answers)
-    fs.writeFile(`${answers.name}.json`, JSON.stringify(answers, null, '\t'), (err,data) => {
+    fs.writeFile(`READme.md`, JSON.stringify(answers, null, '\t'), (err,data) => {
         if(err) {
             console.log(err);
         }
@@ -155,33 +155,7 @@ const inquirer = require("inquirer");
 
 promptUser();
 
- //TODO: Create a function to write README file
-
  
 
-// create async function with catch for errors
-// async function init() {
-//   try {
-//     const userAnswers = await inquirer.prompt(answers);
-//     console.log('Your answers have been accepted ', userAnswers);
-//     // get markdown template from generateMarkdown.js passing the answers as parameter
-//     const myMarkdown = generateMarkdown(userAnswers);
-//     console.log(myMarkdown);
-//     //write the readme file after the markdown is made
-//     await createReadMe('README1.md', myMarkdown);
-    
-//   } catch (error) {
-//     console.log('oops- something went wrong: ' + error);
-//   }
-// };
 
-
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-//  init();
-
-
+ 
