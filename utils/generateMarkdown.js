@@ -114,7 +114,8 @@ function generateMarkdown(data) {
 
   ## How to Contribute
   
-  ${data.contributing}
+  ${data.contributing} 
+  [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## Tests
   ${data.test}
@@ -122,7 +123,7 @@ function generateMarkdown(data) {
   ## Questions?
 
   ### Reach me here: 
-  [${data.github}](https://github.com/${data.github})  
+  [https://github.com/${data.github}] (https://github.com/${data.github})  
   ${data.email}`;
 }
 

@@ -145,7 +145,7 @@ function userInput () {
     // ToDo: Create a function to write README file
 
  function writeToFile (fileName, data) {
-     fs.writeFile(`README.md`, data, function(err, result) {
+     fs.writeFile(`READMEgenerated.md`, data, function(err, result) {
          if(err) console.log('error, err');
      } );
         
