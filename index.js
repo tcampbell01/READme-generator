@@ -12,7 +12,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 
 
-const userInput = () => {
+function userInput () {
 
     return inquirer.prompt([
 
@@ -134,30 +134,33 @@ const userInput = () => {
                 'Zlib'
 
             ]
-        }])
-
-    }
-
-    // ToDo: Create a function to write README file
-
-function writeToFile(filename, data) {
-    fs.writeFile('./README.md', JSON.stringify(answers, null, '\t'), (err,data) => {
-        if(err) {
-            console.log(err);
         }
-        console.log("File Created!")
-        }
-    )
-};
-
-//ToDo: Create a function to initialize app
-
-async function init () {
-    let answers = await userInput ();
-    writeToFile((answers.fileName), generateMarkdown(answers));
+    ])
 }
 
-init();
+    
+
+   
+  
+    // ToDo: Create a function to write README file
+
+ function writeToFile (fileName, data) {
+     fs.writeFile(`README.md`, data, function(err, result) {
+         if(err) console.log('error, err');
+     } );
+        
+        }
+     
+ 
+
+ //ToDo: Create a function to initialize app
+
+ async function init () {
+     let answers = await userInput ();
+    writeToFile((answers.fileName), (generateMarkdown(answers)));
+ }
+
+ init();
 
 
 
