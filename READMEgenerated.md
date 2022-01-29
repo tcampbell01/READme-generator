@@ -1,5 +1,6 @@
 # READme Generator
 
+Walk through video can be found here: https://watch.screencastify.com/v/3PEyP8c1jxlsZFkZhpEY
 
   ## Badges
 
