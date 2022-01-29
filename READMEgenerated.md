@@ -1,4 +1,4 @@
-# asdf
+# READme Generator
 
 
   ## Badges
@@ -27,23 +27,23 @@
 
   ## Description
 
-  asdf
+  This program uses node.js and inquirer to create a READme file based on user input. 
 
   ## Installation
 
-  asdf
+  This program requires node.js to be installed as well as a package.json file with inquirer and fs as dependencies
 
   ## Usage
 
-  asdf
+  To generate the READme file you will need to run "node index.js" in the terminal.  Answer the questions and a READme file will be generated for you! 
 
   ## How to Contribute
   
-  asdf 
+  If you would like to contribute, you may add more licenses and license badges to the generateMarkdown.js file 
   [Contributor Covenant](https://www.contributor-covenant.org/)
 
   ## Tests
-  asdf
+  Please make sure you have node.js installed as well as the inquirer and fs dependencies.  Once these are added you may enter any test data you like and generate a READme file locally on your computer.
 
   ## Questions?
 
