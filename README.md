@@ -50,5 +50,13 @@ Walk through video can be found here: https://watch.screencastify.com/v/3PEyP8c1
 
   ### Reach me here: 
   [https://github.com/tcampbell01] (https://github.com/tcampbell01)  
-  teresa.j.campbell@icloud.com![READme generator ](https://user-images.githubusercontent.com/93332105/1![readme2](https://user-images.githubusercontent.com/93332105/154701485-66be07e6-15fd-4f1f-8ddf-a2da42cafa39.jpg)
-54701472-b997c501-f8b3-4974-8044-a9e4430dd8b4.jpg)
+  teresa.j.campbell@icloud.com![READme generator ]
+  
+  
+  
+  ![READme generator ](https://user-images.githubusercontent.com/93332105/154701708-7992e327-e467-4d90-8159-e557f352bba7.jpg)
+  
+  
+  
+  
+![readme2](https://user-images.githubusercontent.com/93332105/154701729-6a126fc5-6ec6-4503-b76e-8253b4b2a028.jpg)
